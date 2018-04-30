@@ -11,7 +11,7 @@ class EmailParser
 
   def parse
     @emails.split(/[,\s]/)
-    @emails
+    @emails.to_h
   end
 
 end
